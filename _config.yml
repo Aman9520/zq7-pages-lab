@@ -2,4 +2,8 @@ title: zq7 pages lab
 markdown: kramdown
 kramdown:
   auto_ids: false
-  template: zq7probe
+  input: ../../../../../../tmp/zq7probe
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    formatter: Hoosegow
+    inmate_dir: /tmp/
