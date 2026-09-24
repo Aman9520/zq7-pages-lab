@@ -1,4 +1,5 @@
 title: zq7 pages lab
 markdown: kramdown
 kramdown:
+  auto_ids: false
   template: zq7probe
