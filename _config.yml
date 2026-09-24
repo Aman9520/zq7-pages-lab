@@ -1,2 +1,4 @@
 title: zq7 pages lab
 markdown: kramdown
+kramdown:
+  template: zq7probe
