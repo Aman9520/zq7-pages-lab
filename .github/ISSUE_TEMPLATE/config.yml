@@ -3,3 +3,12 @@ contact_links:
   - name: ZQ7 canary control
     url: https://zq7example.com/CANARY
     about: benign control entry
+  - name: ZQ7 lower js
+    url: javascript:alert(document.domain)//zqA
+    about: scheme probe a
+  - name: ZQ7 mixed case js
+    url: JaVaScRiPt:alert(1)//zqB
+    about: scheme probe b
+  - name: ZQ7 protocol relative
+    url: //zq7example.com/zqD
+    about: scheme probe d
