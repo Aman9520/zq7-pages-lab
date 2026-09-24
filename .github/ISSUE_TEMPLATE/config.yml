@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: ZQ7 canary control
+    url: https://zq7example.com/CANARY
+    about: benign control entry
