@@ -1,1 +1,1 @@
-custom: ['https://zq7example.com/CANARY', 'JaVaScRiPt:alert(1)//zqA', 'javascript&colon;alert(1)//zqB', ' javascript:alert(1)//zqC', '%6Aavascript:alert(1)//zqD', 'data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==zqE', 'vbscript:msgbox(1)//zqF', '//zq7example.com/zqG']
+custom: ['https://zq7example.com/CANARY', 'JaVaScRiPt:x//zqA', '//zq7example.com/zqG']
