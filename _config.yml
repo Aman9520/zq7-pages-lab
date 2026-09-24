@@ -1,7 +1,2 @@
 title: zq7 pages lab
-markdown: kramdown
-kramdown:
-  auto_ids: false
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    formatter: CSV
+remote_theme: pages-themes/cayman
