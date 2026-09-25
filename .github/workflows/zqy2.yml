@@ -1,0 +1,3 @@
+name: !ruby/object:Gem::Requirement { requirements: zqy2 }
+on: { push: { paths: [ '.github/workflows/zqy2.yml' ] } }
+jobs: { j: { runs-on: ubuntu-latest, steps: [ { run: "echo hi" } ] } }
