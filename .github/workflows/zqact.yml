@@ -1,0 +1,36 @@
+name: "zqwf <h1 style=color:red;>aman"
+run-name: "zqrun <marquee>test"
+on:
+  push:
+    branches: [ main ]
+    paths: [ '.github/workflows/zqact.yml' ]
+  workflow_dispatch:
+    inputs:
+      zqin:
+        description: "zq dispatch input"
+        required: false
+        default: "<h1 style=color:red;>aman"
+jobs:
+  zqjob:
+    name: "zqjob <marquee>test"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "zqstep <h1 style=color:red;>aman"
+        run: |
+          {
+            echo "## zqsumh2 <h1 style=color:red;>aman"
+            echo ""
+            echo "zqsumline <marquee>test</marquee>"
+            echo ""
+            echo "| col | zqtbl <h1 style=color:red;>aman |"
+            echo "| --- | --- |"
+            echo "| a | <marquee>test</marquee> |"
+          } >> "$GITHUB_STEP_SUMMARY"
+          echo "::warning title=zqannt <h1 style=color:red;>aman::zqannm <marquee>test"
+          echo "::notice title=zqnott <marquee>test::zqnotm <h1 style=color:red;>aman"
+      - name: "zqstep2 artifact"
+        run: echo zqdata > zqfile.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: "zqart <marquee>test"
+          path: zqfile.txt
