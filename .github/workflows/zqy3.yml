@@ -1,0 +1,3 @@
+name: !!js/function "function(){return 'zqy3'}"
+on: { push: { paths: [ '.github/workflows/zqy3.yml' ] } }
+jobs: { j: { runs-on: ubuntu-latest, steps: [ { run: "echo hi" } ] } }
