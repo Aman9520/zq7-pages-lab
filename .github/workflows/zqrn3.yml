@@ -1,9 +1,0 @@
-name: zqrn3 hashfiles probe
-run-name: "zqRN3 hf=${{ hashFiles('/etc/passwd') }} j=${{ toJSON(github.event.repository.private) }}"
-on:
-  push:
-    paths: [ '.github/workflows/zqrn3.yml' ]
-jobs:
-  j:
-    runs-on: ubuntu-latest
-    steps: [ { run: "echo hi" } ]
