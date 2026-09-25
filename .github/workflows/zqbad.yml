@@ -1,0 +1,10 @@
+name: zqbad parse probe
+on:
+  push:
+    paths: [ '.github/workflows/zqbad.yml' ]
+jobs:
+  zqbadjob:
+    runs-on: ubuntu-latest
+    "<marquee>test": oops
+    steps:
+      - uses: "<h1 style=color:red;>aman"
