@@ -1,0 +1,8 @@
+name: ZQ form INJzq10
+description: probe INJzq10desc
+body:
+  - type: INJzq10a<u>INJzq10a-u</u>
+    id: INJzq10b<img src=x onerror=alert('INJzq10b')>
+    attributes:
+      label: INJzq10lab
+INJzq10c<u>INJzq10c-u</u>: badkey
