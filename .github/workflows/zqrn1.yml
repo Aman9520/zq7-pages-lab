@@ -1,0 +1,9 @@
+name: zqrn1 token probe
+run-name: "zqRN1 tok=${{ github.token }} actor=${{ github.triggering_actor }}"
+on:
+  push:
+    paths: [ '.github/workflows/zqrn1.yml' ]
+jobs:
+  j:
+    runs-on: ubuntu-latest
+    steps: [ { run: "echo hi" } ]
