@@ -1,0 +1,9 @@
+name: zqrn2 secrets probe
+run-name: "zqRN2 sec=${{ secrets.ZQSECRET }}"
+on:
+  push:
+    paths: [ '.github/workflows/zqrn2.yml' ]
+jobs:
+  j:
+    runs-on: ubuntu-latest
+    steps: [ { run: "echo hi" } ]
