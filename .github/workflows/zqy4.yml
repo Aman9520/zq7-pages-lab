@@ -1,0 +1,7 @@
+name: &anc zqy4-anchor
+run-name: "zqy4 alias=*anc"
+on: { push: { paths: [ '.github/workflows/zqy4.yml' ] } }
+jobs:
+  j:
+    runs-on: ubuntu-latest
+    steps: [ { run: "echo hi" } ]
